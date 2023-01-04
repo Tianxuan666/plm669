@@ -5,7 +5,7 @@ cron 10 8,10 * * *  tylcck.js
 
 ========= 青龙--配置文件--贴心复制区域  ========= 
 # 统一绿茶小程序
-export tylcck=' x-session-id & x-request-id ' 
+export tylcck='token' 
 
 
 多账号用 换行 或 @ 分割
