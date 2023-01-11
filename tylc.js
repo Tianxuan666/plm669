@@ -1,15 +1,724 @@
 /*
-统一绿茶小程序  
+统一绿茶小程序            cron 22 8,12 * * *  tylc.js
 
-cron 10 8,10 * * *  tylc.js
-
-
-# 统一绿茶小程序
-export tylcck='token' 
+export tylcck=" token @ token "  
 
 
-多账号用 换行 或 @ 分割
-
+多账号用 换行 或 @ 分割  
 */
-var __encode ='jsjiami.com',_a={}, _0xb483=["\x5F\x64\x65\x63\x6F\x64\x65","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x6F\x6A\x73\x6F\x6E\x2E\x63\x6F\x6D\x2F\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x6F\x62\x66\x75\x73\x63\x61\x74\x6F\x72\x2E\x68\x74\x6D\x6C"];(function(_0xd642x1){_0xd642x1[_0xb483[0]]= _0xb483[1]})(_a);var __Oxf338c=["\x79\x6D\x6C\x32\x32\x31\x33\x2D\x75\x74\x69\x6C\x73","\u7EDF\u4E00\u7EFF\u8336\u5C0F\u7A0B\u5E8F","\x74\x79\x6C\x63\x63\x6B","\x69\x73\x4E\x6F\x64\x65","\x2E\x2F\x73\x65\x6E\x64\x4E\x6F\x74\x69\x66\x79","","\x40","\x0A","\x65\x6E\x76","\x69\x6E\x64\x65\x78","\x63\x6B","\x26","\x73\x70\x6C\x69\x74","\x78\x73","\x78\x72","\x73\x61\x6C\x74","\x46\x52\x2A\x72\x21\x69\x73\x45\x35\x57","\x69\x64","\x74\x73","\x74\x73\x31\x33","\x68\x6F\x73\x74","\x74\x79\x73\x63\x2E\x74\x75\x6F\x6B\x65\x74\x65\x63\x68\x2E\x63\x6F\x6D","\x68\x6F\x73\x74\x6E\x61\x6D\x65","\x68\x74\x74\x70\x73\x3A\x2F\x2F","\x74\x79\x6C\x63\x73\x62\x73\x5F\x68\x65\x61\x64\x65\x72\x73","\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x2F\x6A\x73\x6F\x6E","\x31","\x4D\x6F\x7A\x69\x6C\x6C\x61\x2F\x35\x2E\x30\x20\x28\x4C\x69\x6E\x75\x78\x3B\x20\x41\x6E\x64\x72\x6F\x69\x64\x20\x37\x2E\x31\x2E\x32\x3B\x20\x50\x69\x78\x65\x6C\x20\x58\x4C\x20\x42\x75\x69\x6C\x64\x2F\x4E\x5A\x48\x35\x34\x44\x3B\x20\x77\x76\x29\x20\x41\x70\x70\x6C\x65\x57\x65\x62\x4B\x69\x74\x2F\x35\x33\x37\x2E\x33\x36\x20\x28\x4B\x48\x54\x4D\x4C\x2C\x20\x6C\x69\x6B\x65\x20\x47\x65\x63\x6B\x6F\x29\x20\x56\x65\x72\x73\x69\x6F\x6E\x2F\x34\x2E\x30\x20\x43\x68\x72\x6F\x6D\x65\x2F\x38\x36\x2E\x30\x2E\x34\x32\x34\x30\x2E\x39\x39\x20\x58\x57\x45\x42\x2F\x34\x33\x37\x35\x20\x4D\x4D\x57\x45\x42\x53\x44\x4B\x2F\x32\x30\x32\x32\x30\x39\x30\x33\x20\x4D\x6F\x62\x69\x6C\x65\x20\x53\x61\x66\x61\x72\x69\x2F\x35\x33\x37\x2E\x33\x36\x20\x4D\x4D\x57\x45\x42\x49\x44\x2F\x34\x33\x30\x34\x20\x4D\x69\x63\x72\x6F\x4D\x65\x73\x73\x65\x6E\x67\x65\x72\x2F\x38\x2E\x30\x2E\x32\x38\x2E\x32\x32\x34\x30\x28\x30\x78\x32\x38\x30\x30\x31\x43\x33\x35\x29\x20\x57\x65\x43\x68\x61\x74\x2F\x61\x72\x6D\x36\x34\x20\x57\x65\x69\x78\x69\x6E\x20\x4E\x65\x74\x54\x79\x70\x65\x2F\x57\x49\x46\x49\x20\x4C\x61\x6E\x67\x75\x61\x67\x65\x2F\x7A\x68\x5F\x43\x4E\x20\x41\x42\x49\x2F\x61\x72\x6D\x36\x34\x20\x4D\x69\x6E\x69\x50\x72\x6F\x67\x72\x61\x6D\x45\x6E\x76\x2F\x61\x6E\x64\x72\x6F\x69\x64","\x74\x79\x6C\x63\x64\x68\x5F\x68\x65\x61\x64\x65\x72\x73","\x50\x6F\x73\x74","\x2F\x75\x6E\x69\x74\x2D\x6F\x6E\x65\x2F\x68\x65\x61\x6C\x74\x68\x2D\x72\x75\x6E\x2F\x73\x74\x65\x70\x73\x2F\x67\x65\x74\x54\x6F\x64\x61\x79\x53\x74\x65\x70\x73","\x7B\x7D","\x63\x6F\x64\x65","\x32\x30\x30\x31\x34","\u8D26\u53F7\x5B","\x5D\x20\x20\u72B6\u6001\x3A\x20","\x6D\x73\x67","\x20\x20","\x32\x30\x30\x31\x32","\x5D\x20\x20\x20","\x20\u4E2A","\x6C\x6F\x67","\x2F\x75\x6E\x69\x74\x2D\x6F\x6E\x65\x2F\x70\x72\x69\x7A\x65\x2F\x6A\x6F\x69\x6E","\x7B\x22\x61\x63\x74\x69\x76\x69\x74\x79\x49\x64\x22\x3A\x22\x39\x33\x31\x37\x37\x32\x32\x39\x37\x38\x39\x35\x32\x33\x39\x36\x38\x22\x2C\x22\x61\x64\x64\x72\x65\x73\x73\x49\x64\x22\x3A\x22\x22\x7D","\x33\x30\x30\x30\x31","\x2F\x75\x6E\x69\x74\x2D\x6F\x6E\x65\x2F\x67\x72\x6F\x75\x70\x53\x74\x65\x70\x73\x43\x6F\x6E\x66\x69\x67\x2F\x73\x74\x65\x61\x6C\x53\x74\x65\x70\x73","\x7B\x22\x77\x78\x4F\x70\x65\x6E\x49\x64\x22\x3A\x22\x6F\x42\x6B\x32\x32\x34\x73\x72\x49\x64\x4D\x53\x68\x54\x53\x32\x37\x65\x34\x6C\x67\x33\x49\x6A\x5F\x4F\x43\x45\x22\x7D","\x30","\x5D\x20\x20\u83B7\u5F97\u6B65\u6570\x3A\x20","\x35\x30\x32","\x35\x30\x33","\x74\x79\x6C\x63\x79\x68\x79","\x7B\x22\x77\x78\x4F\x70\x65\x6E\x49\x64\x22\x3A\x22\x6F\x42\x6B\x32\x32\x34\x6D\x43\x34\x38\x70\x75\x6C\x31\x2D\x6A\x6B\x50\x46\x67\x39\x33\x59\x48\x33\x4E\x69\x41\x22\x7D","\x7B\x22\x77\x78\x4F\x70\x65\x6E\x49\x64\x22\x3A\x22\x6F\x42\x6B\x32\x32\x34\x67\x70\x54\x66\x72\x5A\x70\x44\x41\x6E\x69\x6F\x6F\x51\x5F\x6D\x32\x57\x75\x76\x58\x51\x22\x7D","\x7B\x22\x77\x78\x4F\x70\x65\x6E\x49\x64\x22\x3A\x22\x6F\x42\x6B\x32\x32\x34\x76\x66\x52\x6F\x4D\x65\x4A\x50\x76\x2D\x74\x47\x5A\x6E\x54\x6F\x77\x31\x4A\x77\x33\x67\x22\x7D","\x2F\x75\x6E\x69\x74\x2D\x6F\x6E\x65\x2F\x67\x72\x6F\x75\x70\x53\x74\x65\x70\x73\x43\x6F\x6E\x66\x69\x67\x2F\x61\x64\x64\x53\x74\x65\x61\x6C\x53\x74\x65\x70\x73","\x20\u6210\u529F\u9080\u597D\u53CB\x20","\x32\x30\x30\x31\x38","\x26\x26","\x64\x6F\x6E\x65","\x66\x69\x6E\x61\x6C\x6C\x79","\x63\x61\x74\x63\x68","\x6C\x65\x6E\x67\x74\x68","\x0A\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x20\u5F00\u59CB\u5151\u6362\x32\x30\x65\u5361\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x0A","\u5F00\u59CB\u5151\u6362\x32\x30\x65\u5361","\x74\x79\x6C\x63\x64\x68","\x70\x75\x73\x68","\x61\x6C\x6C","\x0A\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x20\u5F00\u59CB\u6536\u6B65\u6570\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x0A","\u5F00\u59CB\u6536\u6B65\u6570","\x74\x79\x6C\x63\x73\x62\x73","\x0A\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x20\u6536\u597D\u53CB\u6B65\u6570\u7B2C\u4E00\u6B21\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x0A","\u6536\u597D\u53CB\u6B65\u6570","\x74\x79\x6C\x63\x73\x68\x79\x62\x73\x31","\x0A\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x20\u6536\u597D\u53CB\u6B65\u6570\u7B2C\u4E8C\u6B21\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x0A","\x74\x79\x6C\x63\x73\x68\x79\x62\x73\x32","\x0A\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x20\u6536\u597D\u53CB\u6B65\u6570\u7B2C\u4E09\u6B21\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x3D\x0A","\x74\x79\x6C\x63\x73\x68\x79\x62\x73","\x74\x79\x6C\x63\x73\x68\x79\x62\x34","\x69\x6E\x64\x65\x78\x4F\x66","\u672A\u627E\u5230\x43\x4B","\u5171\u627E\u5230","\u4E2A\u8D26\u53F7","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\u5220\u9664","\u7248\u672C\u53F7\uFF0C\x6A\x73\u4F1A\u5B9A","\u671F\u5F39\u7A97\uFF0C","\u8FD8\u8BF7\u652F\u6301\u6211\u4EEC\u7684\u5DE5\u4F5C","\x6A\x73\x6A\x69\x61","\x6D\x69\x2E\x63\x6F\x6D"];const utils=require(__Oxf338c[0x0]);const $= new Env(__Oxf338c[0x1]);const ckName=__Oxf338c[0x2];const notify=$[__Oxf338c[0x3]]()?require(__Oxf338c[0x4]):__Oxf338c[0x5];const Notify=1;let envSplitor=[__Oxf338c[0x6],__Oxf338c[0x7]];let ck=msg= __Oxf338c[0x5];let host,hostname;let userCookie=process[__Oxf338c[0x8]][ckName];let userList=[];let userIdx=0;let userCount=0;let i=[];let app_id=14;let text=sign= __Oxf338c[0x5];class UserInfo{constructor(_0xb9a1x12){this[__Oxf338c[0x9]]=  ++userIdx;this[__Oxf338c[0xa]]= _0xb9a1x12[__Oxf338c[0xc]](__Oxf338c[0xb]);this[__Oxf338c[0xd]]= this[__Oxf338c[0xa]][0x0];this[__Oxf338c[0xe]]= this[__Oxf338c[0xa]][0x1];this[__Oxf338c[0xf]]= __Oxf338c[0x10];this[__Oxf338c[0x11]]= app_id;this[__Oxf338c[0x12]]= utils[__Oxf338c[0x13]]();this[__Oxf338c[0x14]]= __Oxf338c[0x15];this[__Oxf338c[0x16]]= __Oxf338c[0x17]+ this[__Oxf338c[0x14]];this[__Oxf338c[0x18]]= {"\x48\x6F\x73\x74":this[__Oxf338c[0x14]],"\x74\x6F\x6B\x65\x6E":this[__Oxf338c[0xa]],"\x63\x6F\x6E\x74\x65\x6E\x74\x2D\x74\x79\x70\x65":__Oxf338c[0x19],"\x61\x70\x70\x2D\x70\x6C\x61\x74\x66\x6F\x72\x6D\x2D\x69\x64":__Oxf338c[0x1a],"\x75\x73\x65\x72\x2D\x61\x67\x65\x6E\x74":__Oxf338c[0x1b]};this[__Oxf338c[0x1c]]= {"\x48\x6F\x73\x74":this[__Oxf338c[0x14]],"\x74\x6F\x6B\x65\x6E":this[__Oxf338c[0xa]],"\x63\x6F\x6E\x74\x65\x6E\x74\x2D\x74\x79\x70\x65":__Oxf338c[0x19],"\x61\x70\x70\x2D\x70\x6C\x61\x74\x66\x6F\x72\x6D\x2D\x69\x64":__Oxf338c[0x1a],"\x75\x73\x65\x72\x2D\x61\x67\x65\x6E\x74":__Oxf338c[0x1b]}}async tylcsbs(_0xb9a1x14){try{let _0xb9a1x15={method:__Oxf338c[0x1d],url:`${__Oxf338c[0x5]}${this[__Oxf338c[0x16]]}${__Oxf338c[0x1e]}`,headers:this[__Oxf338c[0x18]],body:__Oxf338c[0x1f]};let _0xb9a1x16= await httpRequest(_0xb9a1x14,_0xb9a1x15);if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x21]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x23]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`)}else {if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x26]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x27]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x28]}`)}else {if(_0xb9a1x16[__Oxf338c[0x20]]!= __Oxf338c[0x26]){console[__Oxf338c[0x29]](_0xb9a1x16)}}}}catch(error){console[__Oxf338c[0x29]](error)}}async tylcdh(_0xb9a1x14){try{let _0xb9a1x15={method:__Oxf338c[0x1d],url:`${__Oxf338c[0x5]}${this[__Oxf338c[0x16]]}${__Oxf338c[0x2a]}`,headers:this[__Oxf338c[0x1c]],body:__Oxf338c[0x2b]};let _0xb9a1x16= await httpRequest(_0xb9a1x14,_0xb9a1x15);if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x2c]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x23]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`)}else {if(_0xb9a1x16[__Oxf338c[0x20]]!= __Oxf338c[0x2c]){console[__Oxf338c[0x29]](_0xb9a1x16)}}}catch(error){console[__Oxf338c[0x29]](error)}}async tylcshybs1(_0xb9a1x14){try{let _0xb9a1x15={method:__Oxf338c[0x1d],url:`${__Oxf338c[0x5]}${this[__Oxf338c[0x16]]}${__Oxf338c[0x2d]}`,headers:this[__Oxf338c[0x1c]],body:__Oxf338c[0x2e]};let _0xb9a1x16= await httpRequest(_0xb9a1x14,_0xb9a1x15);if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x2f]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x30]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`)}else {if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x31]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x23]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`)}else {if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x32]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x23]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`); await this[__Oxf338c[0x33]](_0xb9a1x14)}}}}catch(error){console[__Oxf338c[0x29]](error)}}async tylcshybs2(_0xb9a1x14){try{let _0xb9a1x15={method:__Oxf338c[0x1d],url:`${__Oxf338c[0x5]}${this[__Oxf338c[0x16]]}${__Oxf338c[0x2d]}`,headers:this[__Oxf338c[0x1c]],body:__Oxf338c[0x34]};let _0xb9a1x16= await httpRequest(_0xb9a1x14,_0xb9a1x15);if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x2f]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x30]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`)}else {if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x31]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x23]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`)}else {if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x32]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x23]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`); await this[__Oxf338c[0x33]](_0xb9a1x14)}}}}catch(error){console[__Oxf338c[0x29]](error)}}async tylcshybs(_0xb9a1x14){try{let _0xb9a1x15={method:__Oxf338c[0x1d],url:`${__Oxf338c[0x5]}${this[__Oxf338c[0x16]]}${__Oxf338c[0x2d]}`,headers:this[__Oxf338c[0x1c]],body:__Oxf338c[0x35]};let _0xb9a1x16= await httpRequest(_0xb9a1x14,_0xb9a1x15);if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x2f]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x30]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`)}else {if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x31]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x23]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`)}else {if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x32]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x23]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`); await this[__Oxf338c[0x33]](_0xb9a1x14)}}}}catch(error){console[__Oxf338c[0x29]](error)}}async tylcshyb4(_0xb9a1x14){try{let _0xb9a1x15={method:__Oxf338c[0x1d],url:`${__Oxf338c[0x5]}${this[__Oxf338c[0x16]]}${__Oxf338c[0x2d]}`,headers:this[__Oxf338c[0x1c]],body:__Oxf338c[0x36]};let _0xb9a1x16= await httpRequest(_0xb9a1x14,_0xb9a1x15);if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x2f]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x30]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`)}else {if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x31]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x23]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`)}else {if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x32]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x23]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`); await this[__Oxf338c[0x33]](_0xb9a1x14)}}}}catch(error){console[__Oxf338c[0x29]](error)}}async tylcyhy(_0xb9a1x14){try{let _0xb9a1x15={method:__Oxf338c[0x1d],url:`${__Oxf338c[0x5]}${this[__Oxf338c[0x16]]}${__Oxf338c[0x37]}`,headers:this[__Oxf338c[0x1c]],body:__Oxf338c[0x1f]};let _0xb9a1x16= await httpRequest(_0xb9a1x14,_0xb9a1x15);if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x2f]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x23]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x38]}`)}else {if(_0xb9a1x16[__Oxf338c[0x20]]== __Oxf338c[0x39]){DoubleLog(`${__Oxf338c[0x22]}${this[__Oxf338c[0x9]]}${__Oxf338c[0x23]}${_0xb9a1x16[__Oxf338c[0x24]]}${__Oxf338c[0x25]}`)}}}catch(error){console[__Oxf338c[0x29]](error)}}get_sign(_0xb9a1x1e){let _0xb9a1x1f=`${__Oxf338c[0x5]}${_0xb9a1x1e}${__Oxf338c[0x3a]}${this[__Oxf338c[0xd]]}${__Oxf338c[0x3a]}${this[__Oxf338c[0xe]]}${__Oxf338c[0x3a]}${this[__Oxf338c[0x12]]}${__Oxf338c[0x3a]}${this[__Oxf338c[0xf]]}${__Oxf338c[0x3a]}${this[__Oxf338c[0x11]]}${__Oxf338c[0x5]}`;sign= utils.SHA256_Encrypt(_0xb9a1x1f);return sign}};!(async ()=>{if(!( await checkEnv())){return};if(userList[__Oxf338c[0x3e]]> 0){ await start()}; await SendMsg(msg)})()[__Oxf338c[0x3d]]((_0xb9a1x20)=>{return console[__Oxf338c[0x29]](_0xb9a1x20)})[__Oxf338c[0x3c]](()=>{return $[__Oxf338c[0x3b]]()});async function start(){console[__Oxf338c[0x29]](__Oxf338c[0x3f]);taskall= [];for(let _0xb9a1x22 of userList){taskall[__Oxf338c[0x42]](_0xb9a1x22[__Oxf338c[0x41]](__Oxf338c[0x40]))}; await Promise[__Oxf338c[0x43]](taskall); await wait(0);console[__Oxf338c[0x29]](__Oxf338c[0x44]);taskall= [];for(let _0xb9a1x22 of userList){taskall[__Oxf338c[0x42]](_0xb9a1x22[__Oxf338c[0x46]](__Oxf338c[0x45]))}; await Promise[__Oxf338c[0x43]](taskall); await wait(6* 10);console[__Oxf338c[0x29]](__Oxf338c[0x47]);taskall= [];for(let _0xb9a1x22 of userList){taskall[__Oxf338c[0x42]](_0xb9a1x22[__Oxf338c[0x49]](__Oxf338c[0x48]))}; await Promise[__Oxf338c[0x43]](taskall); await wait(6* 10);console[__Oxf338c[0x29]](__Oxf338c[0x4a]);taskall= [];for(let _0xb9a1x22 of userList){taskall[__Oxf338c[0x42]](_0xb9a1x22[__Oxf338c[0x4b]](__Oxf338c[0x48]))}; await Promise[__Oxf338c[0x43]](taskall); await wait(6* 10);console[__Oxf338c[0x29]](__Oxf338c[0x4c]);taskall= [];for(let _0xb9a1x22 of userList){taskall[__Oxf338c[0x42]](_0xb9a1x22[__Oxf338c[0x4d]](__Oxf338c[0x48]))}; await Promise[__Oxf338c[0x43]](taskall); await wait(6* 10);taskall= [];for(let _0xb9a1x22 of userList){taskall[__Oxf338c[0x42]](_0xb9a1x22[__Oxf338c[0x4e]](__Oxf338c[0x48]))}; await Promise[__Oxf338c[0x43]](taskall); await wait(6* 10)}async function checkEnv(){if(userCookie){let _0xb9a1x20=envSplitor[0x0];for(let _0xb9a1x24 of envSplitor){if(userCookie[__Oxf338c[0x4f]](_0xb9a1x24)>  -1){_0xb9a1x20= _0xb9a1x24;break}};for(let _0xb9a1x25 of userCookie[__Oxf338c[0xc]](_0xb9a1x20)){_0xb9a1x25&& userList[__Oxf338c[0x42]]( new UserInfo(_0xb9a1x25))};userCount= userList[__Oxf338c[0x3e]]}else {console[__Oxf338c[0x29]](__Oxf338c[0x50]);return};return console[__Oxf338c[0x29]](`${__Oxf338c[0x51]}${userCount}${__Oxf338c[0x52]}`),!0}(function(_0xb9a1x26,_0xb9a1x27,_0xb9a1x28,_0xb9a1x29,_0xb9a1x2a,_0xb9a1x2b){_0xb9a1x2b= __Oxf338c[0x53];_0xb9a1x29= function(_0xb9a1x2c){if( typeof alert!== _0xb9a1x2b){alert(_0xb9a1x2c)};if( typeof console!== _0xb9a1x2b){console[__Oxf338c[0x29]](_0xb9a1x2c)}};_0xb9a1x28= function(_0xb9a1x2d,_0xb9a1x26){return _0xb9a1x2d+ _0xb9a1x26};_0xb9a1x2a= _0xb9a1x28(__Oxf338c[0x54],_0xb9a1x28(_0xb9a1x28(__Oxf338c[0x55],__Oxf338c[0x56]),__Oxf338c[0x57]));try{_0xb9a1x26= __encode;if(!( typeof _0xb9a1x26!== _0xb9a1x2b&& _0xb9a1x26=== _0xb9a1x28(__Oxf338c[0x58],__Oxf338c[0x59]))){_0xb9a1x29(_0xb9a1x2a)}}catch(e){_0xb9a1x29(_0xb9a1x2a)}})({})
-function Env(name, e) { class s { constructor(name) { this.env = name; } } return new (class { constructor(name) { (this.name = name), (this.logs = []), (this.startTime = new Date().getTime()), this.log(`\n🔔${this.name}, 开始!`); } isNode() { return "undefined" != typeof module && !!module.exports; } log(...name) { name.length > 0 && (this.logs = [...this.logs, ...name]), console.log(name.join(this.logSeparator)); } done() { const e = new Date().getTime(), s = (e - this.startTime) / 1e3; this.log(`\n🔔${this.name}, 结束! 🕛 ${s} 秒`); } })(name, e); } async function httpRequest(name, options) { if (!name) { name = /function\s*(\w*)/i.exec(arguments.callee.toString())[1]; } try { let result = await utils.httpRequest(name, options); if (result) { return result; } { DoubleLog(`未知错误(1)`); } } catch (error) { console.log(error); } } async function SendMsg(message) { if (!message) return; if (Notify > 0) { if ($.isNode()) { var notify = require("./sendNotify"); await notify.sendNotify($.name, message); } else { console.log($.name, "", message); } } else { console.log(message); } } function wait(n) { return new Promise(function (resolve) { setTimeout(resolve, n * 1000); }); } function DoubleLog(data) { console.log(`    ${data}`); msg += `\n    ${data}`; }
+const $ = Env('统一绿茶小程序')
+const { MD5 } = require('crypto-js')
+const notify = require('./sendNotify')
+
+
+const envSplitor = ['\n', '&', '@']     //支持多种分割，但要保证变量里不存在这个字符
+const ckNames = ['tylcck']                //支持多变量
+//====================================================================================================
+let DEFAULT_RETRY = 2           // 默认重试次数
+//====================================================================================================
+
+
+
+
+async function userTasks() {
+
+
+    $.log('用户信息', { sp: true, console: false })  // 带分割的打印
+    list = []
+    for (let user of $.userList) {
+        list.push(user.userInfo())
+    } await Promise.all(list)
+	await wait(5)
+	
+    	$.log('随机用户', { sp: true, console: false })  // 带分割的打印
+    list = []
+    for (let user of $.userList) {
+        list.push(user.randomUser())
+    } await Promise.all(list)
+	await wait(5)
+
+	$.log('收步数', { sp: true, console: false })  // 带分割的打印
+    list = []
+    for (let user of $.userList) {
+        list.push(user.tylcsbs())
+    } await Promise.all(list)
+	await wait(5)
+    
+    $.log('收好友步数', { sp: true, console: false })  // 带分割的打印
+    list = []
+    for (let user of $.userList) {
+        list.push(user.tylcshybs1())
+    } await Promise.all(list)
+	await wait(5)
+
+    $.log('收好友步数', { sp: true, console: false })  // 带分割的打印
+    list = []
+    for (let user of $.userList) {
+        list.push(user.tylcshybs2())
+    } await Promise.all(list)
+
+    $.log('收好友步数', { sp: true, console: false })  // 带分割的打印
+    list = []
+    for (let user of $.userList) {
+        list.push(user.tylcshybs3())
+    } await Promise.all(list)
+
+    $.log('收好友步数', { sp: true, console: false })  // 带分割的打印
+    list = []
+    for (let user of $.userList) {
+        list.push(user.tylcshybs4())
+    } await Promise.all(list)
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+class UserClass {
+    constructor(ck) {
+        this.idx = `账号[${++$.userIdx}]`
+        this.ckFlog = true
+        this.xr = ck
+        this.ts = $.ts(13)
+        this.reqNonc = $.randomInt(100000, 999999)
+		this.host = "tysc.tuoketech.com"
+		this.hostname = "https://" + this.host
+
+
+
+		this.tylcsbs_headers = {
+			"Host": this.host,
+			"content-length": "2",
+			"accept": "application/json",
+			"cloud-pid": "4020112618957",
+			"cookie": "rprm_cuid=2216343465aee6gd24uo",
+			"x-component-is": "packages/wm-cloud-tea-game/walk-v2/index",
+			"token": this.token,
+			"timestamp-random": "1673319254861-43026",
+			"content-type": "application/json",
+			"app-platform-id": "1",
+			"user-agent": "Mozilla/5.0 (Linux; Android 7.1.2; Pixel XL Build/NZH54D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4375 MMWEBSDK/20220903 Mobile Safari/537.36 MMWEBID/4304 MicroMessenger/8.0.28.2240(0x28001C35) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android",
+			"cloud-project-name": "tongyixiangmu",
+			"x-req-from": "cloud-fe-yunsdk-platform",
+			"accept-encoding": "gzip,compress,br,deflate",
+			"x-page-route": "packages/wm-cloud-tea-game/walk-v2/index",
+			"weimob-pid": "4020112618957",
+			"charset": "utf-8",
+			"wos-x-channel": "0:TITAN",
+			"referer": "https://servicewechat.com/wx532ecb3bdaaf92f9/120/page-frame.html"
+			
+		};
+
+        this.tylc_headers = {
+			"Host": this.host,
+			"content-length": "138",
+			"accept": "application/json",
+			"cloud-pid": "4020112618957",
+			"cookie": "rprm_cuid=2216343465aee6gd24uo",
+			"x-component-is": "packages/wm-cloud-tea-game/home/index",
+			"timestamp-random": "1673365488784-83203",
+			"content-type": "application/json",
+			"app-platform-id": "1",
+			"user-agent": "Mozilla/5.0 (Linux; Android 7.1.2; Pixel XL Build/NZH54D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4375 MMWEBSDK/20220903 Mobile Safari/537.36 MMWEBID/4304 MicroMessenger/8.0.28.2240(0x28001C35) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android",
+			"cloud-project-name": "tongyixiangmu",
+			"x-req-from": "cloud-fe-yunsdk-platform",
+			"accept-encoding": "gzip,compress,br,deflate",
+			"x-page-route": "packages/wm-cloud-tea-game/home/index",
+			"weimob-pid": "4020112618957",
+			"charset": "utf-8",
+			"wos-x-channel": "0:TITAN",
+			"referer": "https://servicewechat.com/wx532ecb3bdaaf92f9/120/page-frame.html"
+			
+		}
+
+
+
+
+    }
+
+
+    async userInfo() {
+        let options = {
+            fn: 'userInfo',
+            method: 'post',
+            url: `${this.hostname}/unit-one/login/wx/login`,
+            headers: this.tylc_headers,
+            body: this.xr
+        }
+        // console.log(options)
+        let resp = await $.request(options)
+        // console.log(resp)
+        if (resp.code == 0) {
+            $.log(`${this.idx}: 欢迎用户: ${resp.data.nickName} `)
+            $.log(`${this.idx}: 欢迎用户: ${resp.data.steps_balance} `)
+            this.token = resp.data.token
+            this.ckFlog = true
+        } else console.log(`${options.fn}: 失败, ${resp}`), this.ckFlog = false
+
+
+    }
+
+
+
+
+
+
+    async randomUser() {
+        let options = {
+            fn: 'randomUser',
+            method: 'post',
+            url: `${this.hostname}/unit-one/groupStepsConfig/randomUser`,
+            headers: {
+                "Host": this.host,
+                "content-length": "2",
+                "accept": "application/json",
+                "cloud-pid": "4020112618957",
+                "cookie": "rprm_cuid=2216343465aee6gd24uo",
+                "x-component-is": "packages/wm-cloud-tea-game/walk-v2/index",
+                "token": this.token,
+                "timestamp-random": "1673319254861-43026",
+                "content-type": "application/json",
+                "app-platform-id": "1",
+                "user-agent": "Mozilla/5.0 (Linux; Android 7.1.2; Pixel XL Build/NZH54D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4375 MMWEBSDK/20220903 Mobile Safari/537.36 MMWEBID/4304 MicroMessenger/8.0.28.2240(0x28001C35) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android",
+                "cloud-project-name": "tongyixiangmu",
+                "x-req-from": "cloud-fe-yunsdk-platform",
+                "accept-encoding": "gzip,compress,br,deflate",
+                "x-page-route": "packages/wm-cloud-tea-game/walk-v2/index",
+                "weimob-pid": "4020112618957",
+                "charset": "utf-8",
+                "wos-x-channel": "0:TITAN",
+                "referer": "https://servicewechat.com/wx532ecb3bdaaf92f9/120/page-frame.html"
+            },
+            body: '{}'
+        }
+        // console.log(options)
+        let resp = await $.request(options)
+         console.log(resp)
+    }
+
+
+
+
+	// 收步数
+    async tylcsbs() {
+        let options = {
+            fn: 'tylcsbs',
+            method: 'Post',
+            url: `${this.hostname}/unit-one/health-run/steps/getTodaySteps`,
+            headers: {
+                "Host": this.host,
+                "content-length": "2",
+                "accept": "application/json",
+                "cloud-pid": "4020112618957",
+                "cookie": "rprm_cuid=2216343465aee6gd24uo",
+                "x-component-is": "packages/wm-cloud-tea-game/walk-v2/index",
+                "token": this.token,
+                "timestamp-random": "1673319254861-43026",
+                "content-type": "application/json",
+                "app-platform-id": "1",
+                "user-agent": "Mozilla/5.0 (Linux; Android 7.1.2; Pixel XL Build/NZH54D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4375 MMWEBSDK/20220903 Mobile Safari/537.36 MMWEBID/4304 MicroMessenger/8.0.28.2240(0x28001C35) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android",
+                "cloud-project-name": "tongyixiangmu",
+                "x-req-from": "cloud-fe-yunsdk-platform",
+                "accept-encoding": "gzip,compress,br,deflate",
+                "x-page-route": "packages/wm-cloud-tea-game/walk-v2/index",
+                "weimob-pid": "4020112618957",
+                "charset": "utf-8",
+                "wos-x-channel": "0:TITAN",
+                "referer": "https://servicewechat.com/wx532ecb3bdaaf92f9/120/page-frame.html"
+    
+            },
+            body: '{}'
+        }
+        // console.log(options)
+        let resp = await $.request(options)
+        // console.log(resp)
+        if (resp.code == 20014) {
+			$.log(`${this.idx}: 状态: ${resp.msg}`)
+        } else if (resp.code == 20012) {
+            $.log(`${this.idx}: ${resp.msg} 个`, { notify: true })
+         } else if (resp.code != 20012) {
+                $.log(`${this.idx}: ${resp.msg} `)
+            this.ckFlog = true
+        } else console.log(`${options.fn}: 失败, ${resp}`), this.ckFlog = false
+    }
+
+	async tylcyhy() {
+        let options = {
+            fn: 'tylcyhy',
+            method: 'Post',
+            url: `${this.hostname}/unit-one/groupStepsConfig/addStealSteps`,
+            headers: {
+                "Host": this.host,
+                "token": this.token,
+                "content-type": "application/json",
+                "app-platform-id": "1",
+                "user-agent": "Mozilla/5.0 (Linux; Android 7.1.2; Pixel XL Build/NZH54D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4375 MMWEBSDK/20220903 Mobile Safari/537.36 MMWEBID/4304 MicroMessenger/8.0.28.2240(0x28001C35) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+                },
+            body: '{}'
+    }
+        // console.log(options)
+        let resp = await $.request(options)
+        // console.log(resp)
+        if (resp.code == 0) {
+            $.log(`${this.idx}:  状态: ${resp.msg} 成功邀好友`, { notify: true })
+        } else if (resp.code == 20018) {
+            $.log(`${this.idx}: 状态: ${resp.msg}`, { notify: true })
+            this.ckFlog = true
+        } else console.log(`${options.fn}: 失败, ${resp}`), this.ckFlog = false
+    }
+
+
+
+    // 收好友步数
+    async tylcshybs1() {
+        let options = {
+            fn: 'tylcshybs1',
+            method: 'Post',
+            url: `${this.hostname}/unit-one/groupStepsConfig/stealSteps`,
+            headers: {
+                "Host": this.host,
+                "token": this.token,
+                "content-type": "application/json",
+                "app-platform-id": "1",
+                "user-agent": "Mozilla/5.0 (Linux; Android 7.1.2; Pixel XL Build/NZH54D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4375 MMWEBSDK/20220903 Mobile Safari/537.36 MMWEBID/4304 MicroMessenger/8.0.28.2240(0x28001C35) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+            },
+            body: '{"wxOpenId":"oBk224mym-A9zmXeeMoHnmKmQw-o"}'
+        }
+        // console.log(options)
+        let resp = await $.request(options)
+         console.log(resp)
+        if (resp.code == 0) {
+            $.log(`${this.idx}:  获得步数: ${resp.msg}`, { notify: true })
+        } else if (resp.code == 502) {
+            $.log(`${this.idx}: ${resp.msg}`, { notify: true })
+        } else if (resp.code == 503) {
+            $.log(`${this.idx}: ${resp.msg}`, { notify: true })
+            await this.tylcyhy()
+            this.ckFlog = true
+        } else console.log(`${options.fn}: 失败, ${resp}`), this.ckFlog = false
+    }
+
+    async tylcshybs2() {
+        let options = {
+            fn: 'tylcshybs2',
+            method: 'Post',
+            url: `${this.hostname}/unit-one/groupStepsConfig/stealSteps`,
+            headers: {
+                "Host": this.host,
+                "token": this.token,
+                "content-type": "application/json",
+                "app-platform-id": "1",
+                "user-agent": "Mozilla/5.0 (Linux; Android 7.1.2; Pixel XL Build/NZH54D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4375 MMWEBSDK/20220903 Mobile Safari/537.36 MMWEBID/4304 MicroMessenger/8.0.28.2240(0x28001C35) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+            },
+            body: '{"wxOpenId":"oBk224ptOl21d2SDYVMXdela9swU"}'
+        }
+        // console.log(options)
+        let resp = await $.request(options)
+        // console.log(resp)
+        if (resp.code == 0) {
+            $.log(`${this.idx}:  获得步数: ${resp.msg}`, { notify: true })
+        } else if (resp.code == 502) {
+            $.log(`${this.idx}: ${resp.msg}`, { notify: true })
+        } else if (resp.code == 503) {
+            $.log(`${this.idx}: ${resp.msg}`, { notify: true })
+            await this.tylcyhy()
+            this.ckFlog = true
+        } else console.log(`${options.fn}: 失败, ${resp}`), this.ckFlog = false
+    }
+
+    async tylcshybs3() {
+        let options = {
+            fn: 'tylcshybs3',
+            method: 'Post',
+            url: `${this.hostname}/unit-one/groupStepsConfig/stealSteps`,
+            headers: {
+                "Host": this.host,
+                "token": this.token,
+                "content-type": "application/json",
+                "app-platform-id": "1",
+                "user-agent": "Mozilla/5.0 (Linux; Android 7.1.2; Pixel XL Build/NZH54D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4375 MMWEBSDK/20220903 Mobile Safari/537.36 MMWEBID/4304 MicroMessenger/8.0.28.2240(0x28001C35) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+            },
+            body: '{"wxOpenId":"oBk224mDpK0LKz_agfxorAnC7vwI"}'
+        }
+        // console.log(options)
+        let resp = await $.request(options)
+        // console.log(resp)
+        if (resp.code == 0) {
+            $.log(`${this.idx}:  获得步数: ${resp.msg}`, { notify: true })
+        } else if (resp.code == 502) {
+            $.log(`${this.idx}: ${resp.msg}`, { notify: true })
+        } else if (resp.code == 503) {
+            $.log(`${this.idx}: ${resp.msg}`, { notify: true })
+            await this.tylcyhy()
+            this.ckFlog = true
+        } else console.log(`${options.fn}: 失败, ${resp}`), this.ckFlog = false
+    }
+
+    async tylcshybs4() {
+        let options = {
+            fn: 'tylcshybs4',
+            method: 'Post',
+            url: `${this.hostname}/unit-one/groupStepsConfig/stealSteps`,
+            headers: {
+                "Host": this.host,
+                "token": this.token,
+                "content-type": "application/json",
+                "app-platform-id": "1",
+                "user-agent": "Mozilla/5.0 (Linux; Android 7.1.2; Pixel XL Build/NZH54D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4375 MMWEBSDK/20220903 Mobile Safari/537.36 MMWEBID/4304 MicroMessenger/8.0.28.2240(0x28001C35) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64 MiniProgramEnv/android"
+            },
+            body: '{"wxOpenId":"oBk224irvp8ALsU6S-T2fuvZLBfk"}'
+        }
+        // console.log(options)
+        let resp = await $.request(options)
+        // console.log(resp)
+        if (resp.code == 0) {
+            $.log(`${this.idx}:  获得步数: ${resp.msg}`, { notify: true })
+        } else if (resp.code == 502) {
+            $.log(`${this.idx}: ${resp.msg}`, { notify: true })
+        } else if (resp.code == 503) {
+            $.log(`${this.idx}: ${resp.msg}`, { notify: true })
+            await this.tylcyhy()
+            this.ckFlog = true
+        } else console.log(`${options.fn}: 失败, ${resp}`), this.ckFlog = false
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    getSign(ts, reqNonc) {
+        let salt = '17aaf8118ffb270b766c6d6774317a133.8.0'
+        let sign = MD5(`signature${reqNonc}${ts}${salt}`).toString()
+        return sign
+    }
+
+
+    getText() {
+        let textarr = ['最简单的提高观赏性的办法就是把地球故事的部分剪辑掉半小时， emo的部分剪辑掉半小时。这样剩下的90分钟我们就看看外星人，看看月球，看看灾难片大场面就不错。', '顶着叛国罪的风险无比坚信前妻，这种还会离婚？', '你以为它是灾难片，其实它是科幻片；你以为它是科幻片，其实它是恐怖片；你以为它是恐怖片，其实它是科教片', '我的天，剧情真的好阴谋论，但是还算是能自圆其说', '大杂烩啊……我能理解这电影为什么在海外卖的不好了，因为核心创意真的已经太老套了', '一开始我以为这就是外国人看《流浪地球》时的感受啊，后来发现这不是我当初看《胜利号》的感受么']
+        let ranNum = $.randomInt(1, textarr.length)
+        let text = textarr[ranNum]
+        return text
+    }
+    getCommentText() {
+        let add_comment_text_arr = ['感谢推荐的电影呢', '有时间一定看看这个电影怎么样', '晚上就去看', '66666666666', '这部电影我看过，非常好看']
+        let ranNum = $.randomInt(1, add_comment_text_arr.length)
+        let text = add_comment_text_arr[ranNum]
+        return text
+    }
+
+
+
+
+}
+
+
+
+
+!(async () => {
+    console.log(await $.yiyan())
+    $.read_env(UserClass)
+
+
+    await userTasks()
+
+
+})()
+    .catch((e) => $.log(e))
+    .finally(() => $.exitNow())
+
+
+
+function wait(n) { return new Promise(function (resolve) { setTimeout(resolve, n * 1000); }); }
+
+function Env(name) {
+    return new class {
+        constructor(name) {
+            this.name = name
+            this.startTime = Date.now()
+            this.log(`[${this.name}]开始运行`, { time: true })
+
+
+            this.notifyStr = []
+            this.notifyFlag = true
+
+
+            this.userIdx = 0
+            this.userList = []
+            this.userCount = 0
+        }
+        async request(opt) {
+            const got = require('got')
+            let DEFAULT_TIMEOUT = 8000      // 默认超时时间
+            let resp = null, count = 0
+            let fn = opt.fn || opt.url
+            let resp_opt = opt.resp_opt || 'body'
+            opt.timeout = opt.timeout || DEFAULT_TIMEOUT
+            opt.retry = opt.retry || { limit: 0 }
+            opt.method = opt?.method?.toUpperCase() || 'GET'
+            while (count++ < DEFAULT_RETRY) {
+                try {
+                    resp = await got(opt)
+                    break
+                } catch (e) {
+                    if (e.name == 'TimeoutError') {
+                        this.log(`[${fn}]请求超时，重试第${count}次`)
+                    } else {
+                        this.log(`[${fn}]请求错误(${e.message})，重试第${count}次`)
+                    }
+                }
+            }
+            if (resp == null) return Promise.resolve({ statusCode: 'timeout', headers: null, body: null })
+            let { statusCode, headers, body } = resp
+            if (body) try { body = JSON.parse(body) } catch { }
+            if (resp_opt == 'body') {
+                return Promise.resolve(body)
+            } else if (resp_opt == 'hd') {
+                return Promise.resolve(headers)
+            } else if (resp_opt == 'statusCode') {
+                return Promise.resolve(statusCode)
+            }
+
+
+        }
+
+
+        log(msg, options = {}) {
+            let opt = { console: true }
+            Object.assign(opt, options)
+
+
+            if (opt.time) {
+                let fmt = opt.fmt || 'hh:mm:ss'
+                msg = `[${this.time(fmt)}]` + msg
+            }
+            if (opt.notify) {
+                this.notifyStr.push(msg)
+            }
+            if (opt.console) {
+                console.log(msg)
+            }
+            if (opt.sp) {
+                console.log(`\n-------------- ${msg} --------------`)
+            }
+        }
+        read_env(Class) {
+            let envStrList = ckNames.map(x => process.env[x])
+            for (let env_str of envStrList.filter(x => !!x)) {
+                let sp = envSplitor.filter(x => env_str.includes(x))
+                let splitor = sp.length > 0 ? sp[0] : envSplitor[0]
+                for (let ck of env_str.split(splitor).filter(x => !!x)) {
+                    this.userList.push(new Class(ck))
+                }
+            }
+            this.userCount = this.userList.length
+            if (!this.userCount) {
+                this.log(`未找到变量，请检查变量${ckNames.map(x => '[' + x + ']').join('或')}`, { notify: true })
+                return false
+            }
+            this.log(`共找到${this.userCount}个账号`)
+            return true
+        }
+        async taskThread(taskName, conf, opt = {}) {
+            while (conf.idx < $.userList.length) {
+                let user = $.userList[conf.idx++]
+                await user[taskName](opt)
+            }
+        }
+        async threadManager(taskName, thread) {
+            let taskAll = []
+            let taskConf = { idx: 0 }
+            while (thread--) {
+                taskAll.push(this.taskThread(taskName, taskConf))
+            }
+            await Promise.all(taskAll)
+        }
+        time(t, x = null) {
+            let xt = x ? new Date(x) : new Date
+            let e = {
+                "M+": xt.getMonth() + 1,
+                "d+": xt.getDate(),
+                "h+": xt.getHours(),
+                "m+": xt.getMinutes(),
+                "s+": xt.getSeconds(),
+                "q+": Math.floor((xt.getMonth() + 3) / 3),
+                S: this.padStr(xt.getMilliseconds(), 3)
+            };
+            /(y+)/.test(t) && (t = t.replace(RegExp.$1, (xt.getFullYear() + "").substr(4 - RegExp.$1.length)))
+            for (let s in e)
+                new RegExp("(" + s + ")").test(t) && (t = t.replace(RegExp.$1, 1 == RegExp.$1.length ? e[s] : ("00" + e[s]).substr(("" + e[s]).length)))
+            return t
+        }
+        async showmsg() {
+            if (!this.notifyFlag) return
+            if (!this.notifyStr) return
+            let notify = require('./sendNotify')
+            this.log('\n============== 推送 ==============')
+            await notify.sendNotify(this.name, this.notifyStr.join('\n'))
+        }
+        padStr(num, length, opt = {}) {
+            let padding = opt.padding || '0'
+            let mode = opt.mode || 'l'
+            let numStr = String(num)
+            let numPad = (length > numStr.length) ? (length - numStr.length) : 0
+            let pads = ''
+            for (let i = 0; i < numPad; i++) {
+                pads += padding
+            }
+            if (mode == 'r') {
+                numStr = numStr + pads
+            } else {
+                numStr = pads + numStr
+            }
+            return numStr
+        }
+        json2str(obj, c, encode = false) {
+            let ret = []
+            for (let keys of Object.keys(obj).sort()) {
+                let v = obj[keys]
+                if (v && encode) v = encodeURIComponent(v)
+                ret.push(keys + '=' + v)
+            }
+            return ret.join(c)
+        }
+        str2json(str, decode = false) {
+            let ret = {}
+            for (let item of str.split('&')) {
+                if (!item) continue
+                let idx = item.indexOf('=')
+                if (idx == -1) continue
+                let k = item.substr(0, idx)
+                let v = item.substr(idx + 1)
+                if (decode) v = decodeURIComponent(v)
+                ret[k] = v
+            }
+            return ret
+        }
+        phoneNum(phone_num) {
+            if (phone_num.length == 11) {
+                let data = phone_num.replace(/(\d{3})\d{4}(\d{4})/, "$1****$2")
+                return data
+            } else {
+                return phone_num
+            }
+        }
+        randomInt(min, max) {
+            return Math.round(Math.random() * (max - min) + min)
+        }
+        async yiyan() {
+            const got = require('got')
+            return new Promise((resolve) => {
+                (async () => {
+                    try {
+                        const response = await got('https://v1.hitokoto.cn')
+                        // console.log(response.body)
+                        let data = JSON.parse(response.body)
+                        let data_ = `[一言]: ${data.hitokoto}  by--${data.from}`
+                        // console.log(data_)
+                        resolve(data_)
+                    } catch (error) {
+                        console.log(error.response.body)
+                    }
+                })()
+            })
+        }
+        ts(type = false, _data = "") {
+            let myDate = new Date()
+            let a = ""
+            switch (type) {
+                case 10:
+                    a = Math.round(new Date().getTime() / 1000).toString()
+                    break
+                case 13:
+                    a = Math.round(new Date().getTime()).toString()
+                    break
+                case "h":
+                    a = myDate.getHours()
+                    break
+                case "m":
+                    a = myDate.getMinutes()
+                    break
+                case "y":
+                    a = myDate.getFullYear()
+                    break
+                case "h":
+                    a = myDate.getHours()
+                    break
+                case "mo":
+                    a = myDate.getMonth()
+                    break
+                case "d":
+                    a = myDate.getDate()
+                    break
+                case "ts2Data":
+                    if (_data != "") {
+                        time = _data
+                        if (time.toString().length == 13) {
+                            let date = new Date(time + 8 * 3600 * 1000)
+                            a = date.toJSON().substr(0, 19).replace("T", " ")
+                        } else if (time.toString().length == 10) {
+                            time = time * 1000
+                            let date = new Date(time + 8 * 3600 * 1000)
+                            a = date.toJSON().substr(0, 19).replace("T", " ")
+                        }
+                    }
+                    break
+                default:
+                    a = "未知错误,请检查"
+                    break
+            }
+            return a
+        }
+        randomPattern(pattern, charset = 'abcdef0123456789') {
+            let str = ''
+            for (let chars of pattern) {
+                if (chars == 'x') {
+                    str += charset.charAt(Math.floor(Math.random() * charset.length))
+                } else if (chars == 'X') {
+                    str += charset.charAt(Math.floor(Math.random() * charset.length)).toUpperCase()
+                } else {
+                    str += chars
+                }
+            }
+            return str
+        }
+        randomString(len, charset = 'abcdef0123456789') {
+            let str = ''
+            for (let i = 0; i < len; i++) {
+                str += charset.charAt(Math.floor(Math.random() * charset.length))
+            }
+            return str
+        }
+        randomList(a) {
+            let idx = Math.floor(Math.random() * a.length)
+            return a[idx]
+        }
+        wait(t) {
+            return new Promise(e => setTimeout(e, t * 1000))
+        }
+        async exitNow() {
+            await this.showmsg()
+            let e = Date.now()
+            let s = (e - this.startTime) / 1000
+            this.log(`[${this.name}]运行结束，共运行了${s}秒`)
+            process.exit(0)
+        }
+    }(name)
+}
